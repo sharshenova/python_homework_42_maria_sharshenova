@@ -1,0 +1,5 @@
+<ul>
+    {% for rating in article.ratings.all %}
+        <li>{{ rating.user.name }}: {{ rating.get_value_display }}</li>
+    {% endfor %}
+</ul>

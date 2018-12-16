@@ -1,5 +1,5 @@
 <li>
-    <p>{{ comment.commented_by }}: {{ comment.text }}</p>
+    <p>{{ comment.commented_by }} : {{ comment.text }}</p>
     <ul>
         {% for comment in comment.comments.all %}
             {% include "comment.html" %}
