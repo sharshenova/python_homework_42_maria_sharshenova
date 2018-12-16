@@ -20,36 +20,18 @@ class Article(models.Model):
     def __str__(self):
         return self.title
 
+    def root_comments(self):
+        return self.comments.filter(parent_comment__isnull=True)
+
 
 class Comment(models.Model):
-    parent_comment = models.ForeignKey('Comment', on_delete=models.PROTECT, related_name='comments', verbose_name='Корневой комментарий')
+    parent_comment = models.ForeignKey('Comment', null=True, blank=True, on_delete=models.PROTECT, related_name='comments', verbose_name='Родительский комментарий')
     text = models.TextField(max_length=1000, verbose_name='Текст комментария')
-    article_id = models.ForeignKey(Article, on_delete=models.PROTECT, related_name='article_comments', verbose_name='Статья с комментарием')
-    commented_by = models.ForeignKey(User, on_delete=models.PROTECT, related_name='comments_by', verbose_name='Автор комментария')
-    datetime = models.DateTimeField(default=datetime.now, verbose_name='Дата написания комментария')
+    article = models.ForeignKey(Article, on_delete=models.PROTECT, related_name='comments', verbose_name='Статья')
+    commented_by = models.ForeignKey(User, on_delete=models.PROTECT, related_name='comments', verbose_name='Автор')
+    datetime = models.DateTimeField(default=datetime.now, verbose_name='Дата')
 
     def __str__(self):
         return self.text
 
 
-# class Rating(models.Model):
-#     RATING_VERY_BAD = 'very_bad'
-#     RATING_BAD = 'bad'
-#     RATING_MIDDLING = 'middling'
-#     RATING_WELL = 'well'
-#     RATING_EXCELLENT = 'excellent'
-#
-#     RATING_CHOICES = (
-#         (RATING_VERY_BAD, 'Очень плохо'),
-#         (RATING_BAD, 'Плохо'),
-#         (RATING_MIDDLING, 'Средне'),
-#         (RATING_WELL, 'Хорошо'),
-#         (RATING_EXCELLENT, 'Отлично')
-#     )
-#
-#     article = models.ForeignKey(Article, on_delete=models.PROTECT, related_name='ratings', verbose_name='Оценки статьи')
-#     user = models.ForeignKey(User, on_delete=models.PROTECT, related_name='users_ratings', verbose_name='Оценки пользователя')
-#     rating = models.CharField(max_length=20, choices=RATING_CHOICES, verbose_name='Оценка')
-#
-#     def __str__(self):
-#         return self.rating

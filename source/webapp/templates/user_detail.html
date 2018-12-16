@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Пользователь{% endblock %}
+
+{% block content %}
+    <h1>{{ user.name }}</h1>
+    <p>{{ user.description }}</p>
+
+    <h5>Статьи пользователя:</h5>
+    {% for article in user.articles.all %}
+        <p>{{ article.title }}</p>
+        <p>{{ article.text }}</p>
+    {% endfor %}
+{% endblock %}

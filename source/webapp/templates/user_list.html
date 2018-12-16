@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block title %}Проекты{% endblock %}
+{% block content %}
+    {% for user in user_list %}
+        {% include "user.html" %}
+    {% endfor %}
+{% endblock %}
