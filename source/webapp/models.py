@@ -2,7 +2,6 @@ from django.db import models
 from datetime import datetime
 
 
-
 class User(models.Model):
     name = models.CharField(max_length=50, verbose_name='Имя пользователя')
     favorites = models.ManyToManyField('Article', blank=True, related_name='favored_by', verbose_name='Избранное')
