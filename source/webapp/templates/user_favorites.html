@@ -4,10 +4,9 @@
 {% block content %}
     <h1>{{ user.name }}</h1>
 
-    <h2>Избранное</h2>
+    <h2>Избранное:</h2>
     {% for favorites in user.favorites.all %}
-        <h3>{{ favorites.title }}</h3>
-        <p>{{ favorites.text }}</p>
-        <p>By {{ favorites.author}}</p>
+        <h3><a href="{% url 'article_detail' favorites.pk %}">{{ favorites.title }}<a></h3>
+        <hr>
     {% endfor %}
 {% endblock %}

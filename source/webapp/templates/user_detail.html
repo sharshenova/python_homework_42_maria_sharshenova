@@ -5,9 +5,8 @@
     <h1>{{ user.name }}</h1>
     <p>{{ user.description }}</p>
 
-    <h5>Статьи пользователя:</h5>
+    <h2>Статьи пользователя:</h2>
     {% for article in user.articles.all %}
-        <p>{{ article.title }}</p>
-        <p>{{ article.text }}</p>
+        {% include "article.html" %}
     {% endfor %}
 {% endblock %}

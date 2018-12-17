@@ -54,4 +54,4 @@ class Rating(models.Model):
     value = models.CharField(max_length=20, choices=RATING_CHOICES, verbose_name='Оценка')
 
     def __str__(self):
-        return self.value
+        return self.get_value_display()
