@@ -1,0 +1,1449 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "webapp",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "webapp",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "webapp",
+    "model": "article"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "webapp",
+    "model": "rating"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "at019im3zoeacfxfo8qarbb4mvw3sn74",
+  "fields": {
+    "session_data": "ZjdiYTM0YmI5MjQ3NDNiMDhhYzRjOWJhMTcyNWJmNjcxZDVkNjYxYTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJjZTU3NzdkYmZkOWQ5YzI2ZTQzMGY1OGViMmExYjA5MzMzNmE0NWU4In0=",
+    "expire_date": "2018-12-30T11:51:23.622Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "emp5mjpq1f1ap53uv372qr6ztzah6416",
+  "fields": {
+    "session_data": "ZjdiYTM0YmI5MjQ3NDNiMDhhYzRjOWJhMTcyNWJmNjcxZDVkNjYxYTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJjZTU3NzdkYmZkOWQ5YzI2ZTQzMGY1OGViMmExYjA5MzMzNmE0NWU4In0=",
+    "expire_date": "2019-01-03T07:05:16.219Z"
+  }
+},
+{
+  "model": "webapp.user",
+  "pk": 1,
+  "fields": {
+    "name": "\u0418\u0432\u0430\u043d \u0411\u043e\u043b\u0432\u0430\u043d",
+    "description": "\u041e\u0447\u0435\u043d\u044c \u0443\u043c\u043d\u044b\u0439, \u043e\u043a\u043e\u043d\u0447\u0438\u043b \u041e\u043a\u0441\u0444\u043e\u0440\u0442. \u041f\u0438\u0448\u0443 \u0441\u0442\u0430\u0442\u044c\u0438 \u043e\u0431\u043e \u0432\u0441\u0435\u043c \u043d\u0430 \u0441\u0432\u0435\u0442\u0435.",
+    "favorites": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "webapp.user",
+  "pk": 2,
+  "fields": {
+    "name": "\u0424\u0440\u0438\u0434\u0440\u0438\u0445 \u0412\u0438\u043b\u044c\u0433\u0435\u043b\u044c\u043c\u043e\u0432\u0438\u0447",
+    "description": "\u0412\u0435\u0434\u0443 \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u043d\u044b\u0439 \u0431\u043b\u043e\u0433, \u0438\u0433\u0440\u0430\u044e \u0432 \u043f\u0440\u0435\u0444\u0435\u0440\u0430\u043d\u0441, \u0441\u043c\u043e\u0442\u0440\u044e \u0441\u043a\u0432\u043e\u0437\u044c \u043f\u0435\u043d\u0441\u043d\u0435.",
+    "favorites": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "webapp.user",
+  "pk": 3,
+  "fields": {
+    "name": "\u041a\u0430\u0442\u044e\u0448\u0430 \u041b\u0438\u043c\u043e\u043d\u043e\u0432\u0430",
+    "description": "\u0424\u044d\u0448\u043d-\u0431\u043b\u043e\u0433\u0433\u0435\u0440, \u043d\u044d\u0439\u043b-\u044d\u043a\u0441\u043f\u0435\u0440\u0442, \u0431\u044c\u044e\u0442\u0438-\u043a\u043e\u043d\u0441\u0443\u043b\u044c\u0442\u0430\u043d\u0442. \u0427\u0438\u0442\u0430\u0439\u0442\u0435 \u0441\u0442\u0430\u0442\u044c\u0438 \u0438 \u0437\u0430\u043f\u0438\u0441\u044b\u0432\u0430\u0439\u0442\u0435\u0441\u044c \u043d\u0430 \u043d\u043e\u0433\u043e\u0442\u043e\u0447\u043a\u0438!",
+    "favorites": []
+  }
+},
+{
+  "model": "webapp.user",
+  "pk": 4,
+  "fields": {
+    "name": "\u0412\u0430\u0441\u044f \u041f\u0443\u043f\u043a\u0438\u043d",
+    "description": "",
+    "favorites": [
+      1
+    ]
+  }
+},
+{
+  "model": "webapp.user",
+  "pk": 5,
+  "fields": {
+    "name": "\u0414\u0430\u0448\u0430 \u0418\u0432\u0430\u043d\u043e\u0432\u0430",
+    "description": "\u0412\u0435\u0434\u0443 \u0431\u043b\u043e\u0433 \u043e \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044f\u0445. \u041f\u043e\u0434\u043f\u0438\u0441\u044b\u0432\u0430\u0439\u0442\u0435\u0441\u044c, \u0441\u0442\u0430\u0432\u044c\u0442\u0435 \u043b\u0430\u0439\u043a\u0438, \u043d\u0430\u0436\u0438\u043c\u0430\u0439\u0442\u0435 \u043d\u0430 \u043a\u043e\u043b\u043e\u043a\u043e\u043b\u044c\u0447\u0438\u043a!",
+    "favorites": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 1,
+  "fields": {
+    "title": "\u041f\u043e\u0447\u0435\u043c\u0443 \u043a\u043e\u0440\u043e\u0432\u044b \u043d\u0435 \u043b\u0435\u0442\u0430\u044e\u0442",
+    "text": "\u041a\u043e\u0440\u043e\u0432\u044b \u0441\u0442\u0430\u0440\u0430\u044e\u0442\u0441\u044f \u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0443\u0442\u044c\u0441\u044f \u043c\u043e\u0440\u0434\u043e\u0439 \u043e\u0442 \u0432\u0435\u0442\u0440\u0430, \u043e\u0431\u043b\u0435\u0433\u0447\u0430\u044f \u0441\u0442\u0435\u043a\u0430\u043d\u0438\u0435 \u043a\u0430\u043f\u0435\u043b\u044c \u043f\u043e \u0448\u0435\u0440\u0441\u0442\u0438 \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u0434\u043e\u0436\u0434\u044f. \u041d\u043e \u043d\u0435\u0442 \u043b\u0438 \u0432 \u044d\u0442\u043e\u043c \u043f\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0438 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0441\u043c\u044b\u0441\u043b\u0430? \u0412\u0435\u0434\u044c \u0441 \u0442\u043e\u0447\u043a\u0438 \u0437\u0440\u0435\u043d\u0438\u044f \u0430\u044d\u0440\u043e\u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0438 \u043d\u0430 \u0442\u0435\u043b\u043e, \u0434\u0432\u0438\u0436\u0443\u0449\u0435\u0435\u0441\u044f \u0432 \u043f\u043e\u0442\u043e\u043a\u0435 \u0432\u043e\u0437\u0434\u0443\u0445\u0430, \u043c\u043e\u0433\u0443\u0442 \u0434\u0435\u0439\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c \u0447\u0435\u0442\u044b\u0440\u0435 \u0441\u0438\u043b\u044b. \u041d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043d\u0430\u044f \u0432\u043f\u0435\u0440\u0435\u0434 \u0442\u044f\u0433\u0430 \u043f\u0440\u043e\u0442\u0438\u0432\u043e\u0441\u0442\u043e\u0438\u0442 \u0442\u043e\u0440\u043c\u043e\u0437\u044f\u0449\u0435\u043c\u0443 \u0441\u043e\u043f\u0440\u043e\u0442\u0438\u0432\u043b\u0435\u043d\u0438\u044e, \u043a\u043e\u0442\u043e\u0440\u043e\u0435 \u0441\u0432\u044f\u0437\u0430\u043d\u043e \u0441 \u0444\u043e\u0440\u043c\u043e\u0439 \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u0430 \u0438 \u0441 \u0442\u0440\u0435\u043d\u0438\u0435\u043c \u0433\u0430\u0437\u0430 \u043e \u0435\u0433\u043e \u043f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u044c. \u0415\u0441\u043b\u0438 \u0437\u0430 \u0441\u0447\u0435\u0442 \u0433\u0435\u043e\u043c\u0435\u0442\u0440\u0438\u0438 \u0442\u0435\u043b\u0430 \u043d\u0430\u0434 \u043d\u0438\u043c \u0441\u043e\u0437\u0434\u0430\u0435\u0442\u0441\u044f \u043f\u043e\u0442\u043e\u043a \u0432\u043e\u0437\u0434\u0443\u0445\u0430 \u043f\u043e\u043d\u0438\u0436\u0435\u043d\u043d\u043e\u0433\u043e \u0434\u0430\u0432\u043b\u0435\u043d\u0438\u044f, \u0430 \u043f\u043e\u0434 \u043d\u0438\u043c \u2014 \u043f\u043e\u0432\u044b\u0448\u0435\u043d\u043d\u043e\u0433\u043e, \u0442\u043e \u0432\u043e\u0437\u043d\u0438\u043a\u0430\u0435\u0442 \u043f\u043e\u0434\u044a\u0435\u043c\u043d\u0430\u044f \u0441\u0438\u043b\u0430. \u041f\u0440\u0438 \u0434\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u043e\u0439 \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u0438 \u0432\u043e\u0437\u0434\u0443\u0445\u0430 \u043e\u043d\u0430 \u043c\u043e\u0436\u0435\u0442 \u0434\u0430\u0436\u0435 \u043f\u0440\u0435\u0432\u044b\u0441\u0438\u0442\u044c \u0432\u0435\u0441, \u0442\u044f\u043d\u0443\u0449\u0438\u0439 \u0432\u043d\u0438\u0437. \u041f\u043e\u043b\u0443\u0447\u0430\u0435\u0442\u0441\u044f, \u0447\u0442\u043e \u043f\u0440\u0438 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u043e\u0439 \u0444\u043e\u0440\u043c\u0435 \u0442\u0435\u043b\u0430 \u0438 \u043d\u0443\u0436\u043d\u043e\u0439 \u0441\u0438\u043b\u0435 \u0432\u0435\u0442\u0440\u0430 \u043a\u043e\u0440\u043e\u0432\u044b \u043c\u043e\u0433\u0443\u0442\u2026. \u0432\u0437\u043b\u0435\u0442\u0435\u0442\u044c?",
+    "author": 1
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 2,
+  "fields": {
+    "title": "\u0412\u043b\u0438\u044f\u043d\u0438\u0435 \u0442\u0432\u043e\u0440\u0447\u0435\u0441\u0442\u0432\u0430 \u043f\u043e\u0437\u0434\u043d\u0435\u0433\u043e \u0413\u0443\u043c\u0438\u043b\u0435\u0432\u0430 \u043d\u0430 \u0430\u0431\u0441\u0442\u0440\u0430\u0446\u0438\u043e\u043d\u0438\u0437\u043c \u0440\u0430\u043d\u043d\u0435\u0433\u043e \u0411\u0440\u043e\u0434\u0441\u043a\u043e\u0433\u043e",
+    "text": "\u0418\u0434\u0435\u0439\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u0432\u044b\u0441\u0448\u0435\u0433\u043e \u043f\u043e\u0440\u044f\u0434\u043a\u0430, \u0430 \u0442\u0430\u043a\u0436\u0435 \u043d\u0430\u0447\u0430\u043b\u043e \u043f\u043e\u0432\u0441\u0435\u0434\u043d\u0435\u0432\u043d\u043e\u0439 \u0440\u0430\u0431\u043e\u0442\u044b \u043f\u043e \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e \u043f\u043e\u0437\u0438\u0446\u0438\u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043e\u0446\u0435\u043d\u0438\u0442\u044c \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435 \u043c\u043e\u0434\u0435\u043b\u0438 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f. \u0422\u043e\u0432\u0430\u0440\u0438\u0449\u0438! \u0441\u043b\u043e\u0436\u0438\u0432\u0448\u0430\u044f\u0441\u044f \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0438 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0441\u043e\u0431\u043e\u0439 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u044b\u0439 \u044d\u043a\u0441\u043f\u0435\u0440\u0438\u043c\u0435\u043d\u0442 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 \u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0439 \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0438\u0432\u043d\u043e\u0433\u043e \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f.\r\n\u0421 \u0434\u0440\u0443\u0433\u043e\u0439 \u0441\u0442\u043e\u0440\u043e\u043d\u044b \u0443\u043a\u0440\u0435\u043f\u043b\u0435\u043d\u0438\u0435 \u0438 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u0435 \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u044b \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0438\u0432\u0430\u0435\u0442 \u0443\u0447\u0430\u0441\u0442\u0438\u0435 \u0432 \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438 \u0441\u0438\u0441\u0442\u0435\u043c \u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0433\u043e \u0443\u0447\u0430\u0441\u0442\u0438\u044f. \u0422\u043e\u0432\u0430\u0440\u0438\u0449\u0438! \u043a\u043e\u043d\u0441\u0443\u043b\u044c\u0442\u0430\u0446\u0438\u044f \u0441 \u0448\u0438\u0440\u043e\u043a\u0438\u043c \u0430\u043a\u0442\u0438\u0432\u043e\u043c \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0442\u044c \u0432\u0430\u0436\u043d\u044b\u0435 \u0437\u0430\u0434\u0430\u043d\u0438\u044f \u043f\u043e \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u0441\u0438\u0441\u0442\u0435\u043c \u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0433\u043e \u0443\u0447\u0430\u0441\u0442\u0438\u044f.\r\n\u0421 \u0434\u0440\u0443\u0433\u043e\u0439 \u0441\u0442\u043e\u0440\u043e\u043d\u044b \u043f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e-\u043f\u0440\u043e\u043f\u0430\u0433\u0430\u043d\u0434\u0438\u0441\u0442\u0441\u043a\u043e\u0435 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435 \u043d\u0430\u0448\u0435\u0439 \u0434\u0435\u044f\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0438\u0432\u0430\u0435\u0442 \u0448\u0438\u0440\u043e\u043a\u043e\u043c\u0443 \u043a\u0440\u0443\u0433\u0443 (\u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u043e\u0432) \u0443\u0447\u0430\u0441\u0442\u0438\u0435 \u0432 \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438 \u043f\u043e\u0437\u0438\u0446\u0438\u0439, \u0437\u0430\u043d\u0438\u043c\u0430\u0435\u043c\u044b\u0445 \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0430\u043c\u0438 \u0432 \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0438 \u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u044b\u0445 \u0437\u0430\u0434\u0430\u0447. \u0418\u0434\u0435\u0439\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u0432\u044b\u0441\u0448\u0435\u0433\u043e \u043f\u043e\u0440\u044f\u0434\u043a\u0430, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0440\u0430\u043c\u043a\u0438 \u0438 \u043c\u0435\u0441\u0442\u043e \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f \u043a\u0430\u0434\u0440\u043e\u0432 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0438\u0432\u0430\u0435\u0442 \u0448\u0438\u0440\u043e\u043a\u043e\u043c\u0443 \u043a\u0440\u0443\u0433\u0443 (\u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u043e\u0432) \u0443\u0447\u0430\u0441\u0442\u0438\u0435 \u0432 \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438 \u043d\u043e\u0432\u044b\u0445 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u0439.",
+    "author": 2
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 3,
+  "fields": {
+    "title": "\u041a\u0430\u043a\u043e\u0439 \u0446\u0432\u0435\u0442 \u043d\u043e\u0433\u043e\u0442\u043e\u0447\u043a\u043e\u0432 \u043c\u043e\u0434\u0435\u043d \u0432 \u044d\u0442\u043e\u043c \u0441\u0435\u0437\u043e\u043d\u0435",
+    "text": "\u041e\u0434\u043d\u0430 \u0438\u0437 \u0433\u043b\u0430\u0432\u043d\u044b\u0445 \u043c\u043e\u0434\u043d\u044b\u0445 \u0442\u0435\u043d\u0434\u0435\u043d\u0446\u0438\u0439 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u041d\u0435\u0434\u0435\u043b\u044c \u043c\u043e\u0434\u044b \u2013 \u0432\u043e\u0437\u0432\u0440\u0430\u0449\u0435\u043d\u0438\u0435 \u0434\u043b\u0438\u043d\u043d\u044b\u0445 \u043e\u0441\u0442\u0440\u043e\u043a\u043e\u043d\u0435\u0447\u043d\u044b\u0445 \u043d\u043e\u0433\u0442\u0435\u0439. \u0427\u0442\u043e, \u0432\u043f\u0440\u043e\u0447\u0435\u043c, \u0431\u044b\u043b\u043e \u043d\u0435\u0438\u0437\u0431\u0435\u0436\u043d\u043e: \u043a\u043e\u0440\u043e\u0442\u043a\u0438\u0435 \u043d\u043e\u0433\u0442\u0438 \u0444\u043e\u0440\u043c\u044b \u00ab\u043c\u044f\u0433\u043a\u0438\u0439 \u043a\u0432\u0430\u0434\u0440\u0430\u0442\u00bb \u043e\u0441\u0442\u0430\u0432\u0430\u043b\u0438\u0441\u044c \u0444\u0430\u0432\u043e\u0440\u0438\u0442\u0430\u043c\u0438 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0434\u043e\u043b\u0433\u043e. \u0422\u0435\u043f\u0435\u0440\u044c \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044f \u0438\u0437\u043c\u0435\u043d\u0438\u043b\u0430\u0441\u044c, \u0438 \u0441 \u044d\u043a\u0441\u0442\u0440\u0435\u043c\u0430\u043b\u044c\u043d\u043e \u0434\u043b\u0438\u043d\u043d\u044b\u043c\u0438 \u043d\u043e\u0433\u0442\u044f\u043c\u0438 \u0441\u0435\u0433\u043e\u0434\u043d\u044f \u043c\u043e\u0436\u043d\u043e \u0443\u0432\u0438\u0434\u0435\u0442\u044c \u043d\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0420\u0438\u0430\u043d\u043d\u0443. \u041a\u043e\u043d\u0435\u0447\u043d\u043e, \u0434\u043b\u044f \u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0433\u043e \u043e\u0431\u0440\u0430\u0437\u0430 \u0436\u0438\u0437\u043d\u0438 \u0434\u043b\u0438\u043d\u043d\u044b\u0435 \u043d\u043e\u0433\u0442\u0438 \u043d\u0435 \u043f\u043e\u0434\u0445\u043e\u0434\u044f\u0442, \u0430 \u0432\u043e\u0442 \u0434\u043b\u044f \u0432\u0435\u0447\u0435\u0440\u0438\u043d\u043a\u0438 \u2013 \u0432 \u0441\u0430\u043c\u044b\u0439 \u0440\u0430\u0437.\r\n\r\n\u041f\u0440\u0438 \u044d\u0442\u043e\u043c \u043e\u0442\u0440\u0430\u0449\u0438\u0432\u0430\u0442\u044c \u043d\u043e\u0433\u0442\u0438 \u0440\u0430\u0434\u0438 \u043e\u0434\u043d\u043e\u0433\u043e \u0432\u0435\u0447\u0435\u0440\u0430 \u0432\u043e\u0432\u0441\u0435 \u043d\u0435 \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e, \u043c\u043e\u0436\u043d\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0438 \u043d\u0430\u043a\u043b\u0430\u0434\u043d\u044b\u0435. \u041f\u0440\u0438\u043a\u043b\u0435\u0439\u0442\u0435 \u043d\u0430 \u043d\u043e\u0433\u0442\u0438 \u043a\u0440\u0443\u043f\u043d\u044b\u0435 \u0441\u0442\u0440\u0430\u0437\u044b, \u043e\u0444\u043e\u0440\u043c\u0438\u0442\u0435 \u043a\u043e\u043d\u0447\u0438\u043a\u0438 \u043a\u043e\u043d\u0442\u0440\u0430\u0441\u0442\u043d\u044b\u043c \u0438\u043b\u0438 \u0431\u043b\u0435\u0441\u0442\u044f\u0449\u0438\u043c \u043b\u0430\u043a\u043e\u043c, \u0440\u0430\u0437\u0443\u043a\u0440\u0430\u0441\u044c\u0442\u0435 \u043d\u043e\u0433\u0442\u0435\u0432\u0443\u044e \u043f\u043b\u0430\u0441\u0442\u0438\u043d\u0443 \u044f\u0440\u043a\u0438\u043c\u0438 \u043f\u043e\u043b\u043e\u0441\u043a\u0430\u043c\u0438 \u0438\u043b\u0438 \u043f\u0440\u043e\u0441\u0442\u043e \u043d\u0430\u043a\u0440\u0430\u0441\u044c\u0442\u0435 \u043d\u043e\u0433\u0442\u0438 \u044f\u0440\u043a\u0438\u043c \u0430\u043b\u044b\u043c \u043b\u0430\u043a\u043e\u043c: \u0442\u0430\u043a\u043e\u0439 \u044f\u0440\u043a\u0438\u0439 \u0438 \u043c\u043e\u0434\u043d\u044b\u0439 \u0434\u0438\u0437\u0430\u0439\u043d \u043d\u043e\u0433\u0442\u0435\u0439 \u0432 \u043b\u044e\u0431\u043e\u043c \u0441\u043b\u0443\u0447\u0430\u0435 \u043d\u0435 \u043e\u0441\u0442\u0430\u043d\u0435\u0442\u0441\u044f \u043d\u0435\u0437\u0430\u043c\u0435\u0447\u0435\u043d\u043d\u044b\u043c.",
+    "author": 3
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 4,
+  "fields": {
+    "title": "\u041a\u0430\u043a \u0443\u0441\u043f\u0435\u0442\u044c \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u041f\u0440\u0430\u0433\u0443 \u0437\u0430 4 \u0434\u043d\u044f?",
+    "text": "\u0427\u0442\u043e \u0434\u0435\u043b\u0430\u0442\u044c, \u0447\u0442\u043e \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0438 \u043a\u0430\u043a \u0443\u0441\u043f\u0435\u0442\u044c?\r\n\r\n\u0414\u0435\u043d\u044c 1 \u2013 \u041e\u0441\u043c\u043e\u0442\u0440 \u0434\u043e\u0441\u0442\u043e\u043f\u0440\u0438\u043c\u0435\u0447\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0435\u0439 \u0446\u0435\u043d\u0442\u0440\u0430 \u0433\u043e\u0440\u043e\u0434\u0430.\r\n\r\n\u0421\u043e\u0432\u0435\u0442 #1 \u0416\u0438\u0442\u044c \u0432 \u041f\u0440\u0430\u0433\u0435 \u043b\u0443\u0447\u0448\u0435 \u0432 \u0441\u0430\u043c\u043e\u043c \u0446\u0435\u043d\u0442\u0440\u0435 (\u0440\u0430\u0439\u043e\u043d Praha 1). \u0417\u0434\u0435\u0441\u044c \u0440\u0430\u0441\u043f\u043e\u043b\u0430\u0433\u0430\u044e\u0442\u0441\u044f \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u0434\u043e\u0441\u0442\u043e\u043f\u0440\u0438\u043c\u0435\u0447\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043c\u043e\u0436\u043d\u043e \u043e\u0431\u043e\u0439\u0442\u0438 \u0437\u0430 1 \u0434\u0435\u043d\u044c.\r\n\r\n\u0414\u0430, \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u044c \u0436\u0438\u043b\u044c\u044f \u043d\u0435\u043c\u043d\u043e\u0433\u043e \u0432\u044b\u0448\u0435, \u043d\u043e \u0435\u0441\u043b\u0438 \u0436\u0438\u0442\u044c \u0432 \u043e\u0442\u0434\u0430\u043b\u0435\u043d\u043d\u044b\u0445 \u0440\u0430\u0439\u043e\u043d\u0430\u0445, \u0432 \u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u0436\u0438\u043b\u044c\u0435 \u0434\u0435\u0448\u0435\u0432\u043b\u0435, \u0442\u043e \u0432 \u0438\u0442\u043e\u0433\u0435 \u0432\u044b \u043f\u0435\u0440\u0435\u043f\u043b\u0430\u0442\u0438\u0442\u0435 \u0437\u0430 \u043f\u0435\u0440\u0435\u0434\u0432\u0438\u0436\u0435\u043d\u0438\u0435 \u043d\u0430 \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u043c \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u0435.\r\n\r\n\u0421\u043f\u0438\u0441\u043a\u043e\u043c \u043f\u043e \u043f\u043e\u0440\u044f\u0434\u043a\u0443 \u043f\u0435\u0440\u0435\u0447\u0438\u0441\u043b\u0438\u043c \u0434\u043e\u0441\u0442\u043e\u043f\u0440\u0438\u043c\u0435\u0447\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438:\r\n\r\n1. \u041f\u043e\u0440\u043e\u0445\u043e\u0432\u0430\u044f \u0431\u0430\u0448\u043d\u044f\r\n2. \u0421\u0442\u0430\u0440\u043e\u043c\u0435\u0441\u0442\u0441\u043a\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c\r\n3. \u041c\u043e\u0441\u0442\u043e\u0432\u0430\u044f \u0431\u0430\u0448\u043d\u044f \u0438 \u041a\u0430\u0440\u043b\u043e\u0432 \u043c\u043e\u0441\u0442\r\n4. \u041c\u043e\u0441\u0442 \u0432\u043b\u044e\u0431\u043b\u0435\u043d\u043d\u044b\u0445 \u0438 \u043f\u0430\u043c\u044f\u0442\u043d\u0438\u043a \u0432\u043e\u0434\u044f\u043d\u043e\u043c\u0443",
+    "author": 5
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 6,
+  "fields": {
+    "title": "\u0417\u0430\u0434\u0430\u0447\u0430 \u043d\u0430 \u043b\u043e\u0433\u0438\u043a\u0443",
+    "text": "\u0421\u043b\u0443\u0436\u0431\u0435 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u0441\u0442\u0430\u043b\u043e \u0438\u0437\u0432\u0435\u0441\u0442\u043d\u043e, \u0447\u0442\u043e \u0441\u0440\u0435\u0434\u0438 1 000 \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u043e\u0432 \u043c\u0435\u0436\u0433\u0430\u043b\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u0438 \u0441\u043a\u0440\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0448\u043f\u0438\u043e\u043d, \u043f\u0440\u043e\u043d\u0438\u043a\u0448\u0438\u0439 \u0432 \u0437\u0430\u043b \u043f\u043e\u0434 \u0447\u0443\u0436\u043e\u0439 \u0432\u043d\u0435\u0448\u043d\u043e\u0441\u0442\u044c\u044e. \u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u044c, \u043a\u0442\u043e \u0438\u0437 \u0433\u0443\u043c\u0430\u043d\u043e\u0438\u0434\u043e\u0432 \u043f\u0440\u0435\u0441\u0442\u0443\u043f\u043d\u0438\u043a, \u043c\u043e\u0436\u043d\u043e \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0440\u0430\u043c\u043a\u0438 \u0448\u043f\u0438\u043e\u043d\u043e\u0438\u0441\u043a\u0430\u0442\u0435\u043b\u044f. \u041f\u0440\u0438\u0431\u043e\u0440 \u0432\u0441\u0435\u0433\u0434\u0430 \u0440\u0435\u0430\u0433\u0438\u0440\u0443\u0435\u0442 \u043d\u0430 \u0447\u0443\u0436\u0430\u043a\u0430. \u041e\u0434\u043d\u0430\u043a\u043e \u0432 5 % \u0441\u043b\u0443\u0447\u0430\u0435\u0432 \u0441\u0438\u0433\u043d\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0441\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0435\u0442 \u0431\u0435\u0437 \u043f\u0440\u0438\u0447\u0438\u043d\u044b, \u0438 \u043d\u0435\u0432\u0438\u043d\u043d\u044b\u0435 \u0433\u0443\u043c\u0430\u043d\u043e\u0438\u0434\u044b \u043c\u043e\u0433\u0443\u0442 \u043e\u043a\u0430\u0437\u0430\u0442\u044c\u0441\u044f \u0432 \u0447\u0438\u0441\u043b\u0435 \u043f\u043e\u0434\u043e\u0437\u0440\u0435\u0432\u0430\u0435\u043c\u044b\u0445. \u0421\u043b\u0443\u0436\u0431\u0430 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u043f\u0440\u043e\u0441\u0438\u0442 \u0432\u0441\u0435\u0445 \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u043e\u0432 \u043a\u043e\u043d\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u0438 \u043f\u0440\u043e\u0439\u0442\u0438 \u0447\u0435\u0440\u0435\u0437 \u0440\u0430\u043c\u043a\u0443 \u0448\u043f\u0438\u043e\u043d\u043e\u0438\u0441\u043a\u0430\u0442\u0435\u043b\u044f. \u041f\u0440\u043e\u0445\u043e\u0434 \u043f\u0435\u0440\u0432\u043e\u0433\u043e \u0436\u0435 \u0433\u0443\u043c\u0430\u043d\u043e\u0438\u0434\u0430 \u0432\u044b\u0437\u044b\u0432\u0430\u0435\u0442 \u0441\u0438\u0433\u043d\u0430\u043b \u0442\u0440\u0435\u0432\u043e\u0433\u0438. \u041a\u0430\u043a\u043e\u0432\u0430 \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c \u0442\u043e\u0433\u043e, \u0447\u0442\u043e \u0432 \u043b\u043e\u0432\u0443\u0448\u043a\u0443 \u0443\u0433\u043e\u0434\u0438\u043b \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0438\u0439 \u0448\u043f\u0438\u043e\u043d?\r\n\r\n\u0412\u0430\u0440\u0438\u0430\u043d\u0442\u044b \u043e\u0442\u0432\u0435\u0442\u043e\u0432:\r\n1) 95 %\r\n2) 20 %\r\n3) \u041f\u043e\u0447\u0442\u0438 2 %\r\n\r\n\r\n\u041e\u0422\u0412\u0415\u0422: \u041f\u043e\u0447\u0442\u0438 2 %. \u0412 \u0437\u0430\u043b\u0435 \u043f\u0440\u0438\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u044e\u0442 999 \u043c\u0438\u0440\u043d\u044b\u0445 \u0433\u0443\u043c\u0430\u043d\u043e\u0438\u0434\u043e\u0432. 5 % \u043e\u0442 999 = 50, \u0437\u043d\u0430\u0447\u0438\u0442, 50 \u0440\u0430\u0437 \u0441\u0438\u0433\u043d\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0441\u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u0431\u0435\u0437 \u043f\u0440\u0438\u0447\u0438\u043d\u044b. \u0418 \u0435\u0449\u0435 \u043e\u0434\u0438\u043d \u0440\u0430\u0437 \u0441\u0438\u0433\u043d\u0430\u043b \u043f\u0440\u043e\u0437\u0432\u0443\u0447\u0438\u0442, \u043a\u043e\u0433\u0434\u0430 \u0447\u0435\u0440\u0435\u0437 \u0440\u0430\u043c\u043a\u0443 \u0431\u0443\u0434\u0435\u0442 \u043f\u0440\u043e\u0445\u043e\u0434\u0438\u0442\u044c \u0448\u043f\u0438\u043e\u043d (50 + 1 = 51). \u0422\u0430\u043a\u0438\u043c \u043e\u0431\u0440\u0430\u0437\u043e\u043c, \u043f\u043e\u0434 \u043f\u043e\u0434\u043e\u0437\u0440\u0435\u043d\u0438\u0435\u043c \u0443 \u043d\u0430\u0441 51 \u0433\u0443\u043c\u0430\u043d\u043e\u0438\u0434, \u0438 \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u0438\u0437 \u043d\u0438\u0445 \u2014 \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0438\u0439 \u0448\u043f\u0438\u043e\u043d. 1 \u043e\u0442 51 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043f\u043e\u0447\u0442\u0438 2 %.",
+    "author": 1
+  }
+},
+{
+  "model": "webapp.article",
+  "pk": 7,
+  "fields": {
+    "title": "\u041a\u0430\u043a \u0441\u0442\u0430\u0442\u044c \u0431\u043e\u0433\u0430\u0442\u044b\u043c",
+    "text": "\u041d\u0438\u043a\u0430\u043a",
+    "author": 4
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 1,
+  "fields": {
+    "parent_comment": null,
+    "text": "\u041d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u043f\u043e\u043d\u044f\u043b\u0430, \u043d\u043e \u043e\u0447\u0435\u043d\u044c \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u043e!",
+    "article": 1,
+    "commented_by": 3,
+    "datetime": "2018-12-16T12:22:51Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 2,
+  "fields": {
+    "parent_comment": 1,
+    "text": "\u041f\u043e-\u043c\u043e\u0435\u043c\u0443, \u0431\u0440\u0435\u0434 \u043a\u0430\u043a\u043e\u0439-\u0442\u043e",
+    "article": 1,
+    "commented_by": 2,
+    "datetime": "2018-12-16T12:24:55Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 3,
+  "fields": {
+    "parent_comment": 2,
+    "text": "\u0413\u0443\u043c\u0430\u043d\u0438\u0442\u0430\u0440\u0438\u044f\u043c \u043d\u0435 \u043f\u043e\u043d\u044f\u0442\u044c",
+    "article": 1,
+    "commented_by": 1,
+    "datetime": "2018-12-16T12:25:07Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 4,
+  "fields": {
+    "parent_comment": null,
+    "text": "\u0421\u043a\u0443\u043a\u043e\u0442\u0430, \u043a\u0430\u043a \u0431\u0443\u0434\u0442\u043e \u043d\u0430 \u0443\u0440\u043e\u043a \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u044b \u043f\u043e\u043f\u0430\u043b",
+    "article": 2,
+    "commented_by": 1,
+    "datetime": "2018-12-16T13:28:59Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 5,
+  "fields": {
+    "parent_comment": null,
+    "text": "\u041e\u0442\u043b\u0438\u0447\u043d\u0430\u044f \u0441\u0442\u0430\u0442\u044c\u044f, \u044f \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u043b \u0438 \u043f\u0440\u044f\u043c \u0447\u0443\u0432\u0441\u0442\u0432\u0443\u044e, \u043a\u0430\u043a \u043f\u043e\u0443\u043c\u043d\u0435\u043b",
+    "article": 3,
+    "commented_by": 1,
+    "datetime": "2018-12-16T13:29:12Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 6,
+  "fields": {
+    "parent_comment": null,
+    "text": "\u041a\u0440\u0443\u0442\u0430\u044f \u0441\u0442\u0430\u0442\u044c\u044f!",
+    "article": 1,
+    "commented_by": 2,
+    "datetime": "2018-12-16T15:07:17Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 7,
+  "fields": {
+    "parent_comment": null,
+    "text": "\u0422\u044b \u0447\u0442\u043e \u043a\u0443\u0440\u0438\u043b?",
+    "article": 1,
+    "commented_by": 4,
+    "datetime": "2018-12-16T15:08:15Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 8,
+  "fields": {
+    "parent_comment": null,
+    "text": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e, \u0435\u0434\u0435\u043c \u0442\u0443\u0434\u0430 \u043d\u0430 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u0439 \u043d\u0435\u0434\u0435\u043b\u0435!",
+    "article": 4,
+    "commented_by": 3,
+    "datetime": "2018-12-17T06:22:38Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 9,
+  "fields": {
+    "parent_comment": null,
+    "text": "\u0427\u0442\u043e \u0442\u0430\u043c \u0434\u0435\u043b\u0430\u0442\u044c? \u042f \u043b\u0443\u0447\u0448\u0435 \u043f\u043e\u0435\u0434\u0443 \u0432 \u0412\u0430\u0441\u044e\u043a\u0438.",
+    "article": 4,
+    "commented_by": 4,
+    "datetime": "2018-12-17T06:24:37Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 10,
+  "fields": {
+    "parent_comment": 8,
+    "text": "\u041e\u0442\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044f!",
+    "article": 4,
+    "commented_by": 5,
+    "datetime": "2018-12-17T06:24:55Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 11,
+  "fields": {
+    "parent_comment": 4,
+    "text": "\u0423 \u043d\u0430\u0441 \u043d\u0430 \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0435 \u0442\u0430\u043a \u0441\u043a\u0443\u0447\u043d\u043e \u043d\u0435 \u0431\u044b\u043b\u043e!",
+    "article": 2,
+    "commented_by": 5,
+    "datetime": "2018-12-17T06:26:38Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 12,
+  "fields": {
+    "parent_comment": null,
+    "text": "\u042f \u0434\u0443\u043c\u0430\u043b 15 \u043c\u0438\u043d\u0443\u0442",
+    "article": 6,
+    "commented_by": 2,
+    "datetime": "2018-12-17T06:48:51Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 13,
+  "fields": {
+    "parent_comment": 3,
+    "text": "\u0421\u0430\u043c \u0434\u0443\u0440\u0430\u043a",
+    "article": 1,
+    "commented_by": 2,
+    "datetime": "2018-12-20T07:17:06.289Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 14,
+  "fields": {
+    "parent_comment": null,
+    "text": "\u0412\u043e \u0432\u0441\u0435\u043c \u0432\u0438\u043d\u043e\u0432\u0430\u0442\u044b \u043f\u0438\u043d\u0434\u043e\u0441\u044b!",
+    "article": 1,
+    "commented_by": 4,
+    "datetime": "2018-12-20T07:31:10.783Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 15,
+  "fields": {
+    "parent_comment": null,
+    "text": "\u0412\u043e \u0432\u0441\u0435\u043c \u0432\u0438\u043d\u043e\u0432\u0430\u0442\u044b \u043f\u0438\u043d\u0434\u043e\u0441\u044b!",
+    "article": 1,
+    "commented_by": 4,
+    "datetime": "2018-12-20T07:31:50.353Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 16,
+  "fields": {
+    "parent_comment": 6,
+    "text": "\u041d\u0443 \u0442\u0430\u043a\u043e\u0435 \u0441\u0435\u0431\u0435",
+    "article": 1,
+    "commented_by": 5,
+    "datetime": "2018-12-20T07:32:54.574Z"
+  }
+},
+{
+  "model": "webapp.comment",
+  "pk": 17,
+  "fields": {
+    "parent_comment": null,
+    "text": "\u0417\u0430\u0447\u0435\u043c \u044f \u044d\u0442\u043e \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u043b?",
+    "article": 3,
+    "commented_by": 4,
+    "datetime": "2018-12-20T07:34:45.783Z"
+  }
+},
+{
+  "model": "webapp.rating",
+  "pk": 1,
+  "fields": {
+    "article": 1,
+    "user": 1,
+    "value": "excellent"
+  }
+},
+{
+  "model": "webapp.rating",
+  "pk": 2,
+  "fields": {
+    "article": 1,
+    "user": 3,
+    "value": "excellent"
+  }
+},
+{
+  "model": "webapp.rating",
+  "pk": 3,
+  "fields": {
+    "article": 1,
+    "user": 4,
+    "value": "middling"
+  }
+},
+{
+  "model": "webapp.rating",
+  "pk": 4,
+  "fields": {
+    "article": 3,
+    "user": 1,
+    "value": "bad"
+  }
+},
+{
+  "model": "webapp.rating",
+  "pk": 5,
+  "fields": {
+    "article": 3,
+    "user": 2,
+    "value": "middling"
+  }
+},
+{
+  "model": "webapp.rating",
+  "pk": 6,
+  "fields": {
+    "article": 3,
+    "user": 4,
+    "value": "very_bad"
+  }
+},
+{
+  "model": "webapp.rating",
+  "pk": 7,
+  "fields": {
+    "article": 2,
+    "user": 1,
+    "value": "middling"
+  }
+},
+{
+  "model": "webapp.rating",
+  "pk": 8,
+  "fields": {
+    "article": 2,
+    "user": 4,
+    "value": "very_bad"
+  }
+},
+{
+  "model": "webapp.rating",
+  "pk": 9,
+  "fields": {
+    "article": 2,
+    "user": 3,
+    "value": "excellent"
+  }
+},
+{
+  "model": "webapp.rating",
+  "pk": 10,
+  "fields": {
+    "article": 4,
+    "user": 1,
+    "value": "excellent"
+  }
+},
+{
+  "model": "webapp.rating",
+  "pk": 11,
+  "fields": {
+    "article": 4,
+    "user": 2,
+    "value": "well"
+  }
+},
+{
+  "model": "webapp.rating",
+  "pk": 12,
+  "fields": {
+    "article": 6,
+    "user": 2,
+    "value": "excellent"
+  }
+},
+{
+  "model": "webapp.rating",
+  "pk": 13,
+  "fields": {
+    "article": 6,
+    "user": 5,
+    "value": "excellent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 7,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 7,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 7,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 7,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add article",
+    "content_type": 9,
+    "codename": "add_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change article",
+    "content_type": 9,
+    "codename": "change_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete article",
+    "content_type": 9,
+    "codename": "delete_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view article",
+    "content_type": 9,
+    "codename": "view_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add rating",
+    "content_type": 10,
+    "codename": "add_rating"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change rating",
+    "content_type": 10,
+    "codename": "change_rating"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete rating",
+    "content_type": 10,
+    "codename": "delete_rating"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view rating",
+    "content_type": 10,
+    "codename": "view_rating"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$120000$Hrt2mMT8M9k7$pAIHqD67sqQCD94Q5ENAx7ufSelLGYz8cwpOuybS3Nw=",
+    "last_login": "2018-12-20T07:05:16.215Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2018-12-15T04:38:30.604Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2018-12-16T11:55:22.118Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "\u0418\u0432\u0430\u043d \u0411\u043e\u043b\u0432\u0430\u043d",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2018-12-16T11:59:26.176Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "\u0424\u0440\u0438\u0434\u0440\u0438\u0445 \u0412\u0438\u043b\u044c\u0433\u0435\u043b\u044c\u043c\u043e\u0432\u0438\u0447",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2018-12-16T12:06:15.959Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "\u041a\u0430\u0442\u044e\u0448\u0430 \u041b\u0438\u043c\u043e\u043d\u043e\u0432\u0430",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2018-12-16T12:08:09.656Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "\u041f\u043e\u0447\u0435\u043c\u0443 \u043a\u043e\u0440\u043e\u0432\u044b \u043d\u0435 \u043b\u0435\u0442\u0430\u044e\u0442",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2018-12-16T12:15:33.086Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "\u0412\u043b\u0438\u044f\u043d\u0438\u0435 \u0442\u0432\u043e\u0440\u0447\u0435\u0441\u0442\u0432\u0430 \u043f\u043e\u0437\u0434\u043d\u0435\u0433\u043e \u0413\u0443\u043c\u0438\u043b\u0435\u0432\u0430 \u043d\u0430 \u0430\u0431\u0441\u0442\u0440\u0430\u0446\u0438\u043e\u043d\u0438\u0437\u043c \u0440\u0430\u043d\u043d\u0435\u0433\u043e \u0411\u0440\u043e\u0434\u0441\u043a\u043e\u0433\u043e",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2018-12-16T12:18:30.266Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "\u041a\u0430\u043a\u043e\u0439 \u0446\u0432\u0435\u0442 \u043d\u043e\u0433\u043e\u0442\u043e\u0447\u043a\u043e\u0432 \u043c\u043e\u0434\u0435\u043d \u0432 \u044d\u0442\u043e\u043c \u0441\u0435\u0437\u043e\u043d\u0435",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2018-12-16T12:22:55.523Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "\u041d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u043f\u043e\u043d\u044f\u043b\u0430, \u043d\u043e \u043e\u0447\u0435\u043d\u044c \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u043e!",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2018-12-16T12:24:56.991Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "\u041f\u043e-\u043c\u043e\u0435\u043c\u0443, \u0431\u0440\u0435\u0434 \u043a\u0430\u043a\u043e\u0439-\u0442\u043e",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2018-12-16T12:26:27.355Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "\u0413\u0443\u043c\u0430\u043d\u0438\u0442\u0430\u0440\u0438\u044f\u043c \u043d\u0435 \u043f\u043e\u043d\u044f\u0442\u044c",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2018-12-16T13:29:08.345Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "\u041a\u0430\u043a \u0431\u0443\u0434\u0442\u043e \u043d\u0430 \u0443\u0440\u043e\u043a \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u044b \u043f\u043e\u043f\u0430\u043b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2018-12-16T13:31:40.517Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "\u041e\u0442\u043b\u0438\u0447\u043d\u0430\u044f \u0441\u0442\u0430\u0442\u044c\u044f, \u044f \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u043b \u0438 \u043f\u0440\u044f\u043c \u0447\u0443\u0432\u0441\u0442\u0432\u0443\u044e, \u043a\u0430\u043a \u043f\u043e\u0443\u043c\u043d\u0435\u043b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2018-12-16T15:07:21.178Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "\u041a\u0440\u0443\u0442\u0430\u044f \u0441\u0442\u0430\u0442\u044c\u044f!",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2018-12-16T15:08:07.698Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "\u0412\u0430\u0441\u044f \u041f\u0443\u043f\u043a\u0438\u043d",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2018-12-16T15:09:14.153Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "\u0422\u044b \u0447\u0442\u043e \u043a\u0443\u0440\u0438\u043b?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2018-12-16T17:01:28.242Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "\u0412\u0430\u0441\u044f \u041f\u0443\u043f\u043a\u0438\u043d",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2018-12-16T17:01:40.026Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "\u0424\u0440\u0438\u0434\u0440\u0438\u0445 \u0412\u0438\u043b\u044c\u0433\u0435\u043b\u044c\u043c\u043e\u0432\u0438\u0447",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"favorites\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2018-12-16T17:03:12.098Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "excellent",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2018-12-16T17:03:25.114Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "excellent",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2018-12-16T17:03:48.856Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "middling",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2018-12-16T17:04:03.342Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "bad",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2018-12-16T17:04:15.268Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "middling",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2018-12-16T17:04:24.325Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "very_bad",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2018-12-16T17:04:37.639Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "middling",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2018-12-16T17:04:49.329Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "very_bad",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2018-12-16T17:04:58.302Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "excellent",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2018-12-17T04:57:06.452Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "\u0418\u0432\u0430\u043d \u0411\u043e\u043b\u0432\u0430\u043d",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"favorites\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2018-12-17T04:57:19.206Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "\u0418\u0432\u0430\u043d \u0411\u043e\u043b\u0432\u0430\u043d",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2018-12-17T06:15:57.417Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "\u0424\u0440\u0438\u0434\u0440\u0438\u0445 \u0412\u0438\u043b\u044c\u0433\u0435\u043b\u044c\u043c\u043e\u0432\u0438\u0447",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"favorites\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2018-12-17T06:17:45.706Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "\u0414\u0430\u0448\u0430 \u0418\u0432\u0430\u043d\u043e\u0432\u0430",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2018-12-17T06:21:22.529Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "\u041a\u0430\u043a \u0443\u0441\u043f\u0435\u0442\u044c \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u041f\u0440\u0430\u0433\u0443 \u0437\u0430 4 \u0434\u043d\u044f?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2018-12-17T06:21:30.461Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "\u041a\u0430\u043a \u0443\u0441\u043f\u0435\u0442\u044c \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u041f\u0440\u0430\u0433\u0443 \u0437\u0430 4 \u0434\u043d\u044f?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2018-12-17T06:21:58.356Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "\u041a\u0430\u043a \u0443\u0441\u043f\u0435\u0442\u044c \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u041f\u0440\u0430\u0433\u0443 \u0437\u0430 4 \u0434\u043d\u044f?",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2018-12-17T06:22:09.210Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "\u041a\u0430\u043a \u0443\u0441\u043f\u0435\u0442\u044c \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u041f\u0440\u0430\u0433\u0443 \u0437\u0430 4 \u0434\u043d\u044f?",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2018-12-17T06:23:11.649Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e, \u0435\u0434\u0435\u043c \u0442\u0443\u0434\u0430 \u043d\u0430 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u0439 \u043d\u0435\u0434\u0435\u043b\u0435!",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2018-12-17T06:24:38.998Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "\u0427\u0442\u043e \u0442\u0430\u043c \u0434\u0435\u043b\u0430\u0442\u044c? \u042f \u043b\u0443\u0447\u0448\u0435 \u043f\u043e\u0435\u0434\u0443 \u0432 \u0412\u0430\u0441\u044e\u043a\u0438.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2018-12-17T06:26:15.691Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "\u041e\u0442\u043b\u0438\u0447\u043d\u043e\u0433\u043e \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044f!",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2018-12-17T06:27:47.475Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "\u0423 \u043d\u0430\u0441 \u043d\u0430 \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0435 \u0442\u0430\u043a \u0441\u043a\u0443\u0447\u043d\u043e \u043d\u0435 \u0431\u044b\u043b\u043e",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2018-12-17T06:30:38.203Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "\u041e\u0442\u043b\u0438\u0447\u043d\u043e",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2018-12-17T06:30:48.066Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "\u0425\u043e\u0440\u043e\u0448\u043e",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2018-12-17T06:47:42.142Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "\u0417\u0430\u0434\u0430\u0447\u0430 \u043d\u0430 \u043b\u043e\u0433\u0438\u043a\u0443",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2018-12-17T06:48:27.814Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "12",
+    "object_repr": "\u041e\u0442\u043b\u0438\u0447\u043d\u043e",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2018-12-17T06:48:37.554Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "\u041e\u0442\u043b\u0438\u0447\u043d\u043e",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2018-12-17T06:49:49.866Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "\u042f \u0434\u0443\u043c\u0430\u043b 15 \u043c\u0438\u043d\u0443\u0442",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+}
+]
