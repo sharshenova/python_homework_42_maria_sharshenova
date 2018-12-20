@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path
 from webapp.views import UserListView, UserDetailView, ArticleListView, ArticleDetailView, \
-    UserFavoritesView, ArticleCreateView, ArticleUpdateView, CommentCreateView
+    UserFavoritesView, ArticleCreateView, ArticleUpdateView, CommentCreateView, CommentUpdateView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -12,5 +12,6 @@ urlpatterns = [
     path('favorites/<int:pk>', UserFavoritesView.as_view(), name='user_favorites'),
     path('articles/create', ArticleCreateView.as_view(), name='article_create'),
     path('articles/<int:pk>/update', ArticleUpdateView.as_view(), name='article_update'),
-    path('comment/create', CommentCreateView.as_view(), name='comment_create'),
+    path('comments/create', CommentCreateView.as_view(), name='comment_create'),
+    path('comments/<int:pk>/update', CommentUpdateView.as_view(), name='comment_update'),
 ]

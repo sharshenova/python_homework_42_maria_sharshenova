@@ -1,5 +1,6 @@
 <li>
-    <p>{{ comment.commented_by }} : {{ comment.text }}</p>
+    <p class="d-inline-block">{{ comment.commented_by }} : {{ comment.text }}</p>
+    <a href="{% url 'comment_update' comment.pk %}"><i class="fa fa-pencil fa-sm" aria-hidden="true"></i></a>
     <ul>
         {% for comment in comment.comments.all %}
             {% include "comment.html" %}

@@ -1,6 +1,6 @@
 from django.views.generic import ListView, DetailView, FormView, CreateView, UpdateView
-from webapp.models import User, Article, Comment, Rating
-from webapp.forms import UserSearchForm, ArticleSearchForm, UserForm, ArticleForm, CommentForm
+from webapp.models import User, Article, Comment
+from webapp.forms import UserSearchForm, ArticleSearchForm, ArticleForm, CommentForm, CommentUpdateForm
 from django.urls import reverse, reverse_lazy
 
 
@@ -34,7 +34,8 @@ class ArticleListView(ListView, FormView):
 
         article_keywords = self.request.GET.get('article_keywords')
         if article_keywords:
-            return self.model.objects.filter(title__icontains=article_keywords) | self.model.objects.filter(text__icontains=article_keywords)
+            return self.model.objects.filter(title__icontains=article_keywords) \
+                   | self.model.objects.filter(text__icontains=article_keywords)
         else:
             return self.model.objects.all()
 
@@ -67,6 +68,15 @@ class CommentCreateView(CreateView):
     model = Comment
     template_name = 'comment_create.html'
     form_class = CommentForm
+
+    def get_success_url(self):
+        return reverse('article_detail', kwargs={'pk': self.object.article.pk})
+
+
+class CommentUpdateView(UpdateView):
+    model = Comment
+    template_name = 'comment_update.html'
+    form_class = CommentUpdateForm
 
     def get_success_url(self):
         return reverse('article_detail', kwargs={'pk': self.object.article.pk})

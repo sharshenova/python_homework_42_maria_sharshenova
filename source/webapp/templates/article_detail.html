@@ -4,7 +4,7 @@
 {% block content %}
     <h1>{{ article.title }}</h1>
     <p>{{ article.text }}</p>
-    <p><b>By {{ article.author }}</b></p>
+    <p><b>By <a href="{% url "user_detail" article.author.pk %}">{{ article.author }}</a></b></p>
     <a href="{% url "article_update" article.pk %}">Редактировать статью</a>
     <a href="{% url "comment_create" %}">Добавить комментарий</a>
     <hr>

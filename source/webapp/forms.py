@@ -21,3 +21,8 @@ class CommentForm(forms.ModelForm):
     class Meta:
         model = Comment
         fields = ['parent_comment', 'text', 'article', 'commented_by']
+
+class CommentUpdateForm(forms.ModelForm):
+    class Meta:
+        model = Comment
+        fields = ['text']
