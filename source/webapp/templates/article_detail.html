@@ -5,6 +5,8 @@
     <h1>{{ article.title }}</h1>
     <p>{{ article.text }}</p>
     <p><b>By {{ article.author }}</b></p>
+    <a href="{% url "article_update" article.pk %}">Редактировать статью</a>
+    <hr>
     <h2>Комментарии:</h2>
     <ul>
         {% for comment in article.root_comments %}

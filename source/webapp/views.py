@@ -1,8 +1,7 @@
-from django.views.generic import ListView, DetailView, FormView
+from django.views.generic import ListView, DetailView, FormView, CreateView, UpdateView
 from webapp.models import User, Article, Comment, Rating
-from webapp.forms import UserSearchForm, ArticleSearchForm, UserForm
+from webapp.forms import UserSearchForm, ArticleSearchForm, UserForm, ArticleForm
 from django.urls import reverse, reverse_lazy
-from django.contrib.postgres.search import SearchVector
 
 
 
@@ -59,8 +58,6 @@ class ArticleListView(ListView, FormView):
             return self.model.objects.all()
 
 
-
-
 class ArticleDetailView(DetailView):
     model = Article
     template_name = 'article_detail.html'
@@ -69,3 +66,17 @@ class ArticleDetailView(DetailView):
 class UserFavoritesView(DetailView):
     model = User
     template_name = 'user_favorites.html'
+
+
+class ArticleCreateView(CreateView):
+    model = Article
+    template_name = 'article_create.html'
+    form_class = ArticleForm
+    success_url = reverse_lazy('article_list')
+
+
+class ArticleUpdateView(UpdateView):
+    model = Article
+    template_name = 'article_update.html'
+    form_class = ArticleForm
+    success_url = reverse_lazy('article_list')
