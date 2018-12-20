@@ -23,25 +23,6 @@ class UserDetailView(DetailView):
     template_name = 'user_detail.html'
 
 
-# class ArticleListView(ListView, FormView):
-#     def __init__(self):
-#         self.articles = []
-#
-#     model = Article
-#     template_name = 'article_list.html'
-#     form_class = ArticleSearchForm
-#
-#     def get_queryset(self):
-#
-#         article_keywords = self.request.GET.get('article_keywords')
-#         if article_keywords:
-#             self.articles += self.model.objects.filter(title__icontains=article_keywords)
-#             self.articles += self.model.objects.filter(text__icontains=article_keywords)
-#             return self.articles
-#
-#         else:
-#             return self.model.objects.all()
-
 
 class ArticleListView(ListView, FormView):
 
@@ -51,9 +32,9 @@ class ArticleListView(ListView, FormView):
 
     def get_queryset(self):
 
-        article_title = self.request.GET.get('article_title')
-        if article_title:
-            return self.model.objects.filter(title__icontains=article_title)
+        article_keywords = self.request.GET.get('article_keywords')
+        if article_keywords:
+            return self.model.objects.filter(title__icontains=article_keywords) | self.model.objects.filter(text__icontains=article_keywords)
         else:
             return self.model.objects.all()
 

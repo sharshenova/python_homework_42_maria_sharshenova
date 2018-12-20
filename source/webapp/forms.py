@@ -10,13 +10,12 @@ class UserForm(forms.ModelForm):
         fields = ['name', 'favorites', 'description']
 
 class ArticleSearchForm(forms.Form):
-    article_title = forms.CharField(max_length=200, required=False, label='Ключевые слова')
+    article_keywords = forms.CharField(max_length=200, required=False, label='Ключевые слова')
 
 class ArticleForm(forms.ModelForm):
     class Meta:
         model = Article
         fields = ['title', 'text', 'author']
-
 
 class CommentForm(forms.ModelForm):
     class Meta:
